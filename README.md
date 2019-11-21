@@ -57,7 +57,7 @@ The intense nmap scan's XML will be uploaded to the nVis server's /var/ftp/pub f
 The server script will install the required dependencies, copy the vsftpd.conf file that has been edited to allow for anonymous upload, and run the nmaptomongo script. The script parses through the clients' nmap XML and puts the data into the mongo database.
 
 
-  
+Created by: Dennis Tran & Silas Shen  
 
   
   
