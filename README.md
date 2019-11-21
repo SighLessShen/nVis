@@ -24,7 +24,7 @@ To run the nVis server:
   2. apt-get update
   3. docker-compose up -d
   4. chmod +x serverScript
-  5. ./serverScript &
+  5. ./serverScript 
     
 To run the nVis client:
   
@@ -32,7 +32,7 @@ To run the nVis client:
   
   1. cd /nVis
   2. apt-get update
-  3. python3 clientScript.py &
+  3. python3 clientScript.py 
   4. Enter in the IP of the nVis server
   5. Enter your name or any unique ID
   6. Enter in the IP address/CIDR that you are scanning for
